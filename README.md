@@ -168,7 +168,7 @@ services:
       - /mnt/docker/flarum/nginx:/etc/nginx/flarum
 ```
 
-This example install php8-gmp php8-session and php8-brotli with apk  
+This example install php81-gmp php81-session and php81-brotli with apk  
 You can find a php extension here https://pkgs.alpinelinux.org/packages?name=php8-*&branch=v3.13&arch=x86_64
 
 ### Install custom extensions
