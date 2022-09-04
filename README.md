@@ -1,4 +1,4 @@
-![logo](https://opengraph.githubassets.com/af8ac87d6e94828f2ed47d7730229c375e0f04330320acc2fa7276369473390d/RikoDEV/flarum-docker)
+![flarum docker](https://i.imgur.com/azwhHOs.png)
 ##### Huge thanks to [mondedie/flarum](https://github.com/mondediefr/docker-flarum) for creating base docker image.
 
 [![latest](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml/badge.svg)](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml)
