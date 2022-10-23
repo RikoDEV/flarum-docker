@@ -2,10 +2,8 @@ name: latest
 
 on:
   push:
-    branches:
-      - master
-  schedule:
-    - cron: '0 19 1 * *'
+    tags:
+    - '*'
     
 env:
   REGISTRY: ghcr.io
