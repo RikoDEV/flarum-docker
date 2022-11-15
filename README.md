@@ -14,13 +14,13 @@
 - Lightweight & secure image
 - Based on Alpine Linux 3.16
 - **nginx** and **PHP 8.1**
-- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.4.0)
+- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.6.0)
 - MySQL/Mariadb driver
 - OPCache extension configured
 
 ### Build-time variables
 
-- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.4.0*)
+- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.6.0*)
 
 ### Ports
 
@@ -173,7 +173,7 @@ You can find a php extension here https://pkgs.alpinelinux.org/packages?name=php
 
 ### Install custom extensions
 
-**Flarum extensions list :** https://flagrow.io/extensions
+**Flarum extensions list:** https://extiverse.com/
 
 #### Install an extension
 
@@ -246,3 +246,5 @@ See the instructions [here](https://github.com/mondediefr/docker-flarum/blob/mas
 ## License
 
 Docker image [rikodev/flarum-docker](https://github.com/RikoDEV/flarum-docker/pkgs/container/flarum-docker) is released under [MIT License](https://github.com/RikoDEV/flarum-docker/blob/master/LICENSE).
+
+The embedded [Flarum software](https://github.com/flarum/) is released under [MIT License](https://github.com/flarum/flarum/blob/master/LICENSE).
