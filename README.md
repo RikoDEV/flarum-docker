@@ -12,7 +12,7 @@
 
 - Multi-platform image: `linux/386`, `linux/amd64`, `linux/arm/v6`, `linux/arm/v7`, `linux/arm64`
 - Lightweight & secure image
-- Based on Alpine Linux 3.17
+- Based on Alpine Linux 3.16
 - **nginx** and **PHP 8.1**
 - Latest [Flarum Framework](https://github.com/flarum/framework) (v1.7.0)
 - MySQL/Mariadb driver
