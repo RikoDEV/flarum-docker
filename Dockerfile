@@ -1,9 +1,9 @@
-FROM alpine:3.16
+FROM alpine:3.17
 
 LABEL description="Simple forum software for building great communities" \
       maintainer="riko.dev <kontakt@riko.dev>"
 
-ARG VERSION=v1.6.0
+ARG VERSION=v1.7.0
 
 ENV GID=991 \
     UID=991 \
