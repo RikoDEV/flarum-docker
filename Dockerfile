@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.18
 
 LABEL description="Simple forum software for building great communities" \
       maintainer="riko.dev <kontakt@riko.dev>"
@@ -26,39 +26,39 @@ RUN apk add --no-progress --no-cache \
     icu-data-full \
     libcap \
     nginx \
-    php81 \
-    php81-ctype \
-    php81-curl \
-    php81-dom \
-    php81-exif \
-    php81-fileinfo \
-    php81-fpm \
-    php81-gd \
-    php81-gmp \
-    php81-iconv \
-    php81-intl \
-    php81-mbstring \
-    php81-mysqlnd \
-    php81-opcache \
-    php81-pecl-apcu \
-    php81-openssl \
-    php81-pdo \
-    php81-pdo_mysql \
-    php81-phar \
-    php81-session \
-    php81-tokenizer \
-    php81-xmlwriter \
-    php81-zip \
-    php81-zlib \
+    php82 \
+    php82-ctype \
+    php82-curl \
+    php82-dom \
+    php82-exif \
+    php82-fileinfo \
+    php82-fpm \
+    php82-gd \
+    php82-gmp \
+    php82-iconv \
+    php82-intl \
+    php82-mbstring \
+    php82-mysqlnd \
+    php82-opcache \
+    php82-pecl-apcu \
+    php82-openssl \
+    php82-pdo \
+    php82-pdo_mysql \
+    php82-phar \
+    php82-session \
+    php82-tokenizer \
+    php82-xmlwriter \
+    php82-zip \
+    php82-zlib \
     su-exec \
     s6 \
-    && ln -s /usr/bin/php81 /usr/bin/php
+    && ln -s /usr/bin/php82 /usr/bin/php
 
   RUN cd /tmp
 
   RUN curl --progress-bar http://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
   
-  RUN sed -i 's/memory_limit = .*/memory_limit = ${PHP_MEMORY_LIMIT}/' /etc/php81/php.ini
+  RUN sed -i 's/memory_limit = .*/memory_limit = ${PHP_MEMORY_LIMIT}/' /etc/php82/php.ini
 
   RUN chmod +x /usr/local/bin/composer
 

@@ -12,8 +12,8 @@
 
 - Multi-platform image: `linux/386`, `linux/amd64`, `linux/arm/v6`, `linux/arm/v7`, `linux/arm64`
 - Lightweight & secure image
-- Based on Alpine Linux 3.16
-- **nginx** and **PHP 8.1**
+- Based on Alpine Linux 3.18
+- **nginx** and **PHP 8.2**
 - Latest [Flarum Framework](https://github.com/flarum/framework) (v1.7.0)
 - MySQL/Mariadb driver
 - OPCache extension configured
@@ -168,7 +168,7 @@ services:
       - /mnt/docker/flarum/nginx:/etc/nginx/flarum
 ```
 
-This example install php81-gmp php81-session and php81-brotli with apk  
+This example install php82-gmp php82-session and php82-brotli with apk  
 You can find a php extension here https://pkgs.alpinelinux.org/packages?name=php8-*&branch=v3.13&arch=x86_64
 
 ### Install custom extensions
