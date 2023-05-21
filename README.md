@@ -2,7 +2,7 @@
 ##### Huge thanks to [mondedie/flarum](https://github.com/mondediefr/docker-flarum) for creating base docker image.
 
 [![latest](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml/badge.svg)](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml)
-[![php 8.1](https://img.shields.io/badge/PHP-8.1-blue)](https://github.com/RikoDEV/flarum-docker)
+[![php 8.2](https://img.shields.io/badge/PHP-8.2-blue)](https://github.com/RikoDEV/flarum-docker)
 
 ### Tag available
 
@@ -14,13 +14,13 @@
 - Lightweight & secure image
 - Based on Alpine Linux 3.18
 - **nginx** and **PHP 8.2**
-- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.7.0)
+- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.8.0)
 - MySQL/Mariadb driver
 - OPCache extension configured
 
 ### Build-time variables
 
-- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.7.0*)
+- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.8.0*)
 
 ### Ports
 
