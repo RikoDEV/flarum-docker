@@ -3,7 +3,7 @@ FROM alpine:3.18
 LABEL description="Simple forum software for building great communities" \
       maintainer="riko.dev <kontakt@riko.dev>"
 
-ARG VERSION=v1.8.0
+ARG VERSION=v1.8.5
 
 ENV GID=991 \
     UID=991 \

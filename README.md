@@ -14,13 +14,13 @@
 - Lightweight & secure image
 - Based on Alpine Linux 3.18
 - **nginx** and **PHP 8.2**
-- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.8.0)
+- Latest [Flarum Framework](https://github.com/flarum/framework) (v1.8.5)
 - MySQL/Mariadb driver
 - OPCache extension configured
 
 ### Build-time variables
 
-- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.8.0*)
+- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.8.5*)
 
 ### Ports
 
