@@ -8,10 +8,29 @@ ARG VERSION=v1.8.1
 RUN apk add --no-cache --no-progress \
     curl \
     php84 \
-    php84-phar \
+    php84-ctype \
+    php84-curl \
+    php84-dom \
+    php84-exif \
+    php84-fileinfo \
+    php84-fpm \
+    php84-gd \
+    php84-gmp \
     php84-iconv \
+    php84-intl \
     php84-mbstring \
-    php84-openssl && \
+    php84-mysqlnd \
+    php84-opcache \
+    php84-pecl-apcu \
+    php84-openssl \
+    php84-pdo \
+    php84-pdo_mysql \
+    php84-phar \
+    php84-session \
+    php84-tokenizer \
+    php84-xmlwriter \
+    php84-zip \
+    php84-zlib && \
     ln -sf /usr/bin/php84 /usr/bin/php && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
     chmod +x /usr/local/bin/composer
