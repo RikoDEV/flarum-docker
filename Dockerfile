@@ -9,6 +9,8 @@ RUN apk add --no-cache --no-progress \
     curl \
     php84 \
     php84-phar \
+    php84-iconv \
+    php84-mbstring \
     php84-openssl && \
     ln -sf /usr/bin/php84 /usr/bin/php && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
