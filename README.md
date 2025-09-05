@@ -2,7 +2,7 @@
 ##### Huge thanks to [mondedie/flarum](https://github.com/mondediefr/docker-flarum) for creating base docker image.
 
 [![latest](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml/badge.svg)](https://github.com/RikoDEV/flarum-docker/actions/workflows/latest.yml)
-[![php 8.2](https://img.shields.io/badge/PHP-8.2-blue)](https://github.com/RikoDEV/flarum-docker)
+[![php 8.4](https://img.shields.io/badge/PHP-8.4-blue)](https://github.com/RikoDEV/flarum-docker)
 
 ### Tag available
 
@@ -12,21 +12,21 @@
 
 - Multi-platform image: `linux/386`, `linux/amd64`, `linux/arm/v6`, `linux/arm/v7`, `linux/arm64`
 - Lightweight & secure image
-- Based on Alpine Linux 3.18
-- **nginx** and **PHP 8.2**
+- Based on Alpine Linux 3.22
+- **nginx** and **PHP 8.4**
 - Latest [Flarum Framework](https://github.com/flarum/framework) (v1.8.5)
 - MySQL/Mariadb driver
 - OPCache extension configured
 
 ### Build-time variables
 
-- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.8.5*)
+- **VERSION** = Version of [flarum/flarum](https://github.com/flarum/flarum) skeleton (default: *v1.8.1*)
 
 ### Ports
 
 - Default: **8888** (configurable)
 
-### Volume
+### Volumes
 
 - **/flarum/app/extensions** : Flarum extension directory
 - **/flarum/app/public/assets** : Flarum assets directory
@@ -168,8 +168,8 @@ services:
       - /mnt/docker/flarum/nginx:/etc/nginx/flarum
 ```
 
-This example install php82-gmp php82-session and php82-brotli with apk  
-You can find a php extension here https://pkgs.alpinelinux.org/packages?name=php8-*&branch=v3.13&arch=x86_64
+This example install php84-gmp php84-session and php84-brotli with apk  
+You can find a php extension here https://pkgs.alpinelinux.org/packages?name=php8-*&branch=v3.22&arch=x86_64
 
 ### Install custom extensions
 
